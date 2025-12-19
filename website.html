@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f9ff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #023e8a;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      background-color: white;
+      margin: 30px auto;
+      width: 80%;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #90e0ef;
+    }
+
+    select {
+      padding: 8px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to My Personal Website</h1>
+    <p>A simple portfolio and biodata page</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <h2>About Me</h2>
+
+    <!-- Childhood picture -->
+    <img src="https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=800&q=80" alt="Childhood playing picture">
+
+    <label for="hobby">Choose a hobby:</label>
+    <select id="hobby">
+      <option>Reading</option>
+      <option>Traveling</option>
+      <option>Music</option>
+      <option>Drawing</option>
+    </select>
+
+    <h3>Biodata</h3>
+    <table>
+      <tr>
+        <th>Field</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>Enter Your Name</td>
+      </tr>
+      <tr>
+        <td>Education</td>
+        <td>B.Tech / Degree Student</td>
+      </tr>
+      <tr>
+        <td>Skills</td>
+        <td>Web Design, Programming, Creativity</td>
+      </tr>
+      <tr>
+        <td>Social Activities</td>
+        <td>Community events, Cultural programs, Volunteering</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    <p>© 2025 My Personal Website</p>
+  </footer>
+</body>
+</html>
